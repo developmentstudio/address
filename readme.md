@@ -20,7 +20,7 @@ Put the following content in the file `composer.json`:
         }
     ],
     "require": {
-        "developmentstudio/address": "dev-master"
+        "developmentstudio/address": "~0.1"
     }
 }
 ```
@@ -28,7 +28,7 @@ Put the following content in the file `composer.json`:
 Next, run the Composer command to install the latest stable version of this package:
 
 ```bash
-composer.phar require developmentstudio/address
+composer.phar install
 ```
 
 After installing, you need to require Composer's autoloader:
@@ -36,12 +36,6 @@ After installing, you need to require Composer's autoloader:
 ```php
 require 'vendor/autoload.php';
 ```
-
-You can then later update the package using composer:
-
- ```bash
-composer.phar update
- ```
 
 ## Usage example
 
