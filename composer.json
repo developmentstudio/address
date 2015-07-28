@@ -1,0 +1,28 @@
+{
+  "name": "developmentstudio/address",
+  "description": "Package for retrieval of information about dutch addresses.",
+  "license": "MIT",
+  "keywords": ["postcodeapi.nu", "postcode api v1.1", "postcode api", "address information", "address"],
+  "authors": [
+    {
+      "name": "Kevin van Cleef",
+      "email": "kevin@developmentstudio.nl",
+      "homepage": "http://www.developmentstudio.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "^6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Address\\": "src"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/developmentstudio/address/issues"
+  }
+}
